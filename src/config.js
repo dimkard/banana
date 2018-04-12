@@ -129,7 +129,8 @@ function (Settings) {
       'timeseries',
       'multiseries',
       'sunburst',
-      'docviewer'
+      'docviewer',
+      'querySuggestions'
     ]
   });
 });
