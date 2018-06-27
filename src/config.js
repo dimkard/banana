@@ -130,7 +130,9 @@ function (Settings) {
       'multiseries',
       'sunburst',
       'docviewer',
-      'querySuggestions'
+      'querySuggestions',
+      'smartquery',
+      'patternquery'
     ]
   });
 });
