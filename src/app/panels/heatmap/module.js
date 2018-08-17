@@ -304,7 +304,7 @@ define([
                             top: 70,
                             right: 10,
                             bottom: 20,
-                            left: 100
+                            left:200
                         };
 
                         var rowSortOrder = false,
@@ -329,7 +329,7 @@ define([
                             colLabel = jQuery.extend(true, [], scope.col_labels);
                         // jshint ignore:end
 
-                        var cellSize = 15,
+                        var cellSize = 25,
                             col_number = colLabel.length,
                             row_number = rowLabel.length,
                             width = cellSize * col_number,
@@ -358,8 +358,8 @@ define([
                             .enter()
                             .append("text")
                             .text(function (d) {
-                                if(d.length > 8) {
-                                    return d.substring(0,8)+'..';
+                                if(d.length > 25) {
+                                    return d.substring(0,25)+'..';
                                 } else {
                                     return d;
                                 }
